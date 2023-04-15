@@ -8,22 +8,22 @@ Run following commands on the VM:\
 #create base folder\
 mkdir /demo & cd /demo\
 #cloning source code from github\
-git clone https://github.com/qtanit87/WebApi.git\
+git clone https://github.com/qtanit87/WebApi.git \
 
 ###1. Create a Java console application that resolves and prints out the current ip addresses resolved from www.google.com, www.amazon.com, and www.facebook.com.
 
-#move to Dockerfile folder of java app
-cd /demo/WebApi/Dockerfile/app
-#build image for java app console
-docker build --tag appimage .
-#run container with java app image
-docker run -dit --name app appimage
-#check result by accessing console log of the container
-docker logs app
-#result example:
-Public IP Address of: www.google.com/142.251.41.36
-Public IP Address of: www.amazon.com/18.67.16.74
-Public IP Address of: www.facebook.com/157.240.26.35
+#move to Dockerfile folder of java app \
+cd /demo/WebApi/Dockerfile/app \
+#build image for java app console \
+docker build --tag appimage . \
+#run container with java app image \
+docker run -dit --name app appimage \
+#check result by accessing console log of the container \
+docker logs app \
+#result example: \
+Public IP Address of: www.google.com/142.251.41.36 \
+Public IP Address of: www.amazon.com/18.67.16.74 \
+Public IP Address of: www.facebook.com/157.240.26.35 \
 
 ###2. Create a Dockerfile that builds and runs web api inside of a rockylinux image
 
