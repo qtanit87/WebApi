@@ -4,11 +4,11 @@
 
 For demostration: a VM linux machine with docker installation is used. Following steps should be done on the VM to get expected result
 
-Run following commands on the VM:
-#create base folder
-mkdir /demo & cd /demo
-#cloning source code from github
-git clone https://github.com/qtanit87/WebApi.git
+Run following commands on the VM:\
+#create base folder\
+mkdir /demo & cd /demo\
+#cloning source code from github\
+git clone https://github.com/qtanit87/WebApi.git\
 
 ###1. Create a Java console application that resolves and prints out the current ip addresses resolved from www.google.com, www.amazon.com, and www.facebook.com.
 
